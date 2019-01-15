@@ -67,7 +67,7 @@ install_pkg_ubuntu()
 
 install_pkg_darwin()
 {
-    BREW_PKGS="cmake python coreutils libdnet libtins sqlite cairo"
+    BREW_PKGS="cmake python coreutils libtins sqlite cairo"
 
     # Check first to avoid unnecessary update
     echo -e "Packages: Checking..."
